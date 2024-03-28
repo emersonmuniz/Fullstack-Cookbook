@@ -1,4 +1,4 @@
-![LogoPicolezito.png](./images/Logo Block Codes.png)
+![Logo Block Codes.png](./images/Logo Block Codes.png)
 
 
 Aos 50 anos, a memória não é das melhores.
