@@ -56,7 +56,4 @@ This project is an open-source initiative, and any developer can contribute. To 
 Enjoy!
 
 
-![Logo Block Codes.png]( ./images/Logo%20Block%20Codes.png )
-
-
 
