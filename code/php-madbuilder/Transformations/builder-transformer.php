@@ -7,7 +7,7 @@ function($value, $object, $row)
         $class =  'success';
         $label =  "Ativo";
     }
-    else if($value=='aI'){
+    else if($value=='I'){
         $class = 'danger';
         $label = "Inativo";
     }
