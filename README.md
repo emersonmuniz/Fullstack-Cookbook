@@ -22,6 +22,8 @@ This repository serves as my **personal knowledge base** and a **comparative lea
 Unlike a typical snippet collection, this repository is organized by **concept** rather than by language. This allows for a direct, side-by-side comparison of how different frameworks implement the same functionality.
 
 The main directories represent the core pillars of web application development:
+
+```
 /
 ├── 01-Setup-and-Environment/
 ├── 02-Language-Fundamentals/
@@ -31,6 +33,7 @@ The main directories represent the core pillars of web application development:
 ├── 06-Forms-and-Validation/
 ├── 07-Lists-and-Components/
 └── ...and so on
+```
 
 Each folder contains specific Markdown files for each technology stack (e.g., `laravel-eloquent.md`, `django-orm.md`), detailing the implementation of that concept.
 
