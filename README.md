@@ -54,6 +54,7 @@ my-learning-lab/
 │   ├── php/
 │   ├── madbuilder-adiantiframework/
 │   ├── laravel/
+│   ├── sql/
 │   └── nodejs_nestjs/
 │
 ├── 02_frontend/
