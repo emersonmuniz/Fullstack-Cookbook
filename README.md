@@ -49,21 +49,21 @@ The goals of this repository are to:
 my-learning-lab/
 │
 ├── 01_backend/
-│   ├── python/
 │   ├── django/
-│   ├── php/
-│   ├── madbuilder-adiantiframework/
 │   ├── laravel/
-│   ├── sql/
-│   └── nodejs_nestjs/
+│   ├── madbuilder-adiantiframework/
+│   ├── nodejs_nestjs/
+│   ├── php/
+│   ├── python/
+│   └── sql/
 │
 ├── 02_frontend/
-│   ├── vue/
-│   ├── primevue/
-│   ├── jsvascript/
 │   ├── bootstrap/
-│   ├── react/
+│   ├── jsvascript/
 │   ├── nextjs/
+│   ├── primevue/
+│   ├── react/
+│   ├── vue/
 │
 ├── 03_mobile/
 │   ├── flutter/
@@ -75,17 +75,17 @@ my-learning-lab/
 │   └── ml_frameworks/
 │
 ├── 05_devops/
-│   ├── docker/
 │   ├── ci_cd/
-│   └── cloud_aws/
+│   ├── cloud_aws/
+│   └── docker/
 │
 ├── 06_courses/
 │   ├── notes/
 │   ├── projects/
 │
 └── docs/
-    ├── notes/
-    └── comparisons/
+    ├── comparisons/
+    └── notes/
 ```
 
 **Navigation:** Each folder contains self-contained projects or reference code. The `docs/` folder holds notes, comparisons, and conceptual explanations.  
