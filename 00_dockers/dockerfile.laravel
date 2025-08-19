@@ -1,0 +1,21 @@
+FROM php:8.2-fpm
+
+# Dependências do Laravel
+RUN apt-get update && apt-get install -y \
+    git curl libpng-dev libonig-dev libxml2-dev zip unzip \
+    && docker-php-ext-install pdo pdo_mysql pdo_pgsql mbstring exif pcntl bcmath gd
+
+# Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+WORKDIR /var/www/html
+
+# Instala dependências do Laravel
+COPY . /var/www/html
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
+
+# Expor porta usada pelo Laravel
+EXPOSE 8000
+
+# Rodar servidor embutido
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
