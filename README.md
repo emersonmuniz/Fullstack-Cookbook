@@ -59,7 +59,7 @@ my-learning-lab/
 │
 ├── 02_frontend/
 │   ├── bootstrap/
-│   ├── jsvascript/
+│   ├── javascript/
 │   ├── nextjs/
 │   ├── primevue/
 │   ├── react/
