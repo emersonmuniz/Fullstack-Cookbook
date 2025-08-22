@@ -18,6 +18,8 @@ my-learning-lab/
             └── README.md
 ```
 
+> **Note:** For database in Windows and macOS I like to use [DBngin](https://dbngin.com/), easy to use.
+
 ## General Prerequisites
 - **Git**: For cloning and managing the repository.
 - **Code Editor**: VS Code (I use) or any editor like PyCharm, IntelliJ.
