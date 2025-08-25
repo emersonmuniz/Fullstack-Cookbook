@@ -29,7 +29,7 @@ my-learning-lab/
 ## macOS Setup
 
 ### Tools to Install
-- **Homebrew** (package manager): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- **Homebrew** (package manager): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 - **Git**: `brew install git`
 - **Python 3.10+**: `brew install python`
 - **Node.js 18+**: `brew install node`
